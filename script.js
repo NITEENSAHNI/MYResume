@@ -12,7 +12,7 @@ if(date.getHours()>18)
 }
 if(date.getHours()<18)
 {
-    document.getElementById("moon").innerHTML.src="images/sun.png";
+    document.getElementById("moon").src="images/sun.png";
 }
 }
 function Surprise()
