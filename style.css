@@ -582,6 +582,28 @@ transform: rotateZ(180deg);
 
 
 }
+    .page3
+{
+    background-color:black;
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    color: aliceblue;
+    background-image: url('images/funny.jpg');
+    background-repeat: no-repeat;
+ 
+    background-size: 90rem 40rem;
+    background-position: center;
+    background-position-y:0rem; ;
+    top:0rem;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+overflow-y: auto;
+    background-size: 90rem 40rem;
+    background-position: center;
+    background-position-y:0rem; ;
+    height: 30rem;
+}
 .skills
 {
     position: relative;
