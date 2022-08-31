@@ -647,6 +647,12 @@ overflow-y: auto;
     top:-1rem;
     left:2rem;
 }
+#html:hover
+{
+
+    scale:0.8;
+    transition: 2s;
+}
 
 #js
 {
@@ -656,13 +662,24 @@ overflow-y: auto;
    top:-1.5rem;
     scale: 0.5;
 }
+#js:hover
+{
 
+    scale:0.8;
+    transition: 2s;
+}
 #css
 {
     position: relative;
   top:-1.5rem;
    left:-6.5rem;
     scale:0.5;
+}
+#css:hover
+{
+
+    scale:0.8;
+    transition: 2s;
 }
 
 .python
