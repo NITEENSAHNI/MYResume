@@ -4,6 +4,7 @@ body{
     background-color: black;
     display: flex;
     flex-flow: column;
+    height: fit-content;
     overflow: scroll;
   
 }
@@ -459,3 +460,288 @@ overflow-y: auto;
                  0 0 80px rgba(255,255,255,.8);
   }
 }
+@media screen and (max-width: 500px) {
+    .page1 {
+        background-image: url('images/bart.jpg');
+        background-repeat: no-repeat;
+       
+        background-size: 45rem 20rem;
+        background-position: center;
+        background-position-y:0rem; ;
+    }
+    .topcontainer
+{
+    display: flex;
+    flex-flow: row;
+    flex-direction: row;
+    width: fit-content;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    left:1rem;
+    
+}
+.page1 .aboutme
+{
+width: 12rem;
+height: fit-content;
+display: flex;
+position: relative;
+background: rgba( 10, 0, 0, 0.25 );
+font-family:'Dancing Script';
+top:12rem;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+color:antiquewhite;
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+font-size: 4rem;
+left: 1rem;
+border-radius: 0.5rem;
+}
+.topcontainer .date
+{   
+    position: relative;
+    width: 10rem;
+    height: 3rem;
+    display: flex;
+    top:7rem;
+   
+    left: 5rem;
+    color: black;
+  
+}
+#today{
+    position: relative;
+    height: 4rem;
+    width: 5rem;
+ 
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    font-family: 'Dancing Script';
+    left:-4rem;
+    font-size:5rem;
+    
+    font-weight: bolder;
+}
+#month{
+    position: relative;
+    height: 4rem;
+    width: 5rem;
+    top:1.5rem;
+    left:-6rem;
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Dancing Script';
+    
+    font-size: x-large;
+    font-weight: bolder;
+}
+.page2
+
+{
+    background-color:black;
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    top:0rem;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: fit-content;
+    background-size: 45rem 20rem;
+    background-position: center;
+    background-position-y:0rem; ;
+    height: 25rem;
+  
+
+}
+.container2{
+    position: relative;
+   left:1rem;
+   width: 20rem;
+   height: 20rem;
+  
+}
+#namaskar{
+    position: relative;
+    
+}
+#bigintro
+{
+    font-size: 1rem !important;
+}
+#pacman
+{
+scale:0.25;
+top:15rem;
+position: relative;
+left:-52rem;
+
+transform: rotateZ(180deg);
+
+
+}
+.skills
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    width: 15rem;
+    font-size: 4rem;
+    display: flex;
+    height: 5rem;
+    background: rgba( 97, 83, 83, 0.25 );box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );backdrop-filter: blur( 4px );-webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-radius: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    flex-flow: column;
+    text-shadow: 0 0 10px rgba(255,255,255,.4),
+                 0 0 20px rgba(255,255,255,.4),
+                 0 0 22px  rgba(255,255,255,.4),
+                 0 0 40px  rgba(255,255,255,.4),
+                 0 0 60px  rgba(255,255,255,.4),
+                 0 0 80px   rgba(255,255,255,.4),
+                 0 0 100px rgba(255,255,255,.4),
+                 0 0 140px  rgba(255,255,255,.4),
+                 0 0 200px  rgba(255,255,255,.4);
+    left:4rem;
+    font-family: 'Rubik Maze';
+    color:antiquewhite;
+}
+.logos
+{
+    display: flex;
+    height: 10rem;
+
+    
+}
+#html
+{   
+    position: relative;
+    scale: 0.4;
+    top:-1rem;
+    left:2rem;
+}
+
+#js
+{
+    position: relative;
+   
+   left:-2rem;
+   top:-1.5rem;
+    scale: 0.5;
+}
+
+#css
+{
+    position: relative;
+  top:-1.5rem;
+   left:-6.5rem;
+    scale:0.5;
+}
+
+.python
+{   position: relative;
+    display: flex;
+    width:10rem;
+    justify-content: center;
+    align-items: center;
+    height: 12rem;
+    top:5rem;
+    scale:0.5;
+    left: -19.5rem;;
+
+
+}
+#py
+{   position: relative;
+    left: -5rem;
+}
+
+.contact
+{
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    color: antiquewhite;
+    width:70rem;
+    height:25rem;
+    background: rgba( 97, 83, 83, 0.25 );box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );backdrop-filter: blur( 4px );-webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-radius: 0.2rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    left:-35rem;
+    top:15rem;
+  
+ 
+   
+}
+#about
+{
+    position: relative;
+    left:-14rem;
+}
+#lastdeets{
+    position: relative;
+    left:-14rem;
+}
+#food
+{
+    position: relative;
+    left:-14rem;
+}
+#ofcourse
+{
+    position: relative;
+    left:-20rem;
+}
+.contactdeets
+{
+    position: relative;
+    display: flex;
+    width: 10rem;
+    height: 100rem;
+    left:4.25rem;
+    top:30rem;
+}
+.header .name
+{
+   
+    margin: 2rem;
+    font-weight: bold;
+    display: flex;
+    color:antiquewhite;
+    font-family: 'Aboreto' ,serif;
+    position: relative;
+    top:-1.7rem;
+}
+.header .education
+{
+       
+    margin: 2rem;
+    font-weight: bold;
+    display: flex;
+    color:antiquewhite;
+    font-family: 'Aboreto' ,serif;
+    position: relative;
+    left:-0.5rem;
+    top:-1.7rem;
+}
+.header .work
+{
+       
+    margin: 2rem;
+    display: flex;
+    font-weight: bold;
+    color:antiquewhite;
+    font-family: 'Aboreto' ,serif;
+    position: relative;
+    left:-1rem;
+    top:0rem;
+}
+
+
+  }
